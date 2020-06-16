@@ -1,0 +1,103 @@
+@charset "utf-8";
+html,body{
+	cursor:url("imagenes/cursor.png") ,auto;
+	background-color: rgba(65,146,197,0.4);
+}
+.principal{
+ background-image:url("imagenes/1.jpg");
+	width: 67%;
+	max-height: 510px;
+	margin-left: 15%;
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position: center;
+    margin-top: -20px;
+    border-radius: 200px;
+}
+.texto_prin{
+	padding: 20%;
+	color: black;
+	font-weight: 800;
+	font-size: 370%;
+	text-align: center;
+}
+.raza{ /*TODAS LAS IMÁGENES DE LA RAZAS EN 230 X 300 Ó APROXIMADO*/
+	width: 250px;
+	height: 400px;
+	background-color: aliceblue;
+	border-radius: 40px;
+	margin-left: 5%; margin-top: 2%;
+	float: left;
+}
+.french{
+	background: url("imagenes/French Poodle.jpg");
+	width: 85%;
+	height: 75%;
+	margin: 20px;
+	margin-top: 60px;
+	border-radius: 20px;
+	background-repeat: no-repeat;
+}
+.husky{
+	background: url("imagenes/husky.jpg");
+	width: 85%;
+	height: 75%;
+	margin: 20px;
+	margin-top: 60px;
+	border-radius: 20px;
+	background-repeat: no-repeat;
+}
+.tex_raza{
+	text-align: center;
+	top:50%;
+	left: 50%;
+	transform: translate(-1%, -180%);
+	font-weight: bolder;
+}
+.labrador{
+	background: url("imagenes/labrador.jpg");
+	width: 210px;
+	height: 290px;
+	margin: 20px;
+	margin-top: 60px;
+	border-radius: 20px;
+}
+.galgo{
+	background: url("imagenes/galgo.jpg");
+	width: 210px;
+	height: 290px;
+	margin: 20px;
+	margin-top: 60px;
+	border-radius: 20px;
+}
+.collie{
+	background: url("imagenes/collie.jpg");
+	width: 210px;
+	height: 290px;
+	margin: 20px;
+	margin-top: 60px;
+	border-radius: 20px;
+}
+.akita{
+	background: url("imagenes/akita.jpg");
+	width: 210px;
+	height: 290px;
+	margin: 20px;
+	margin-top: 60px;
+	border-radius: 20px;
+}
+.bulldog{
+	background: url("imagenes/bulldog.jpg");
+	width: 210px;
+	height: 290px;
+	margin: 20px;
+	margin-top: 60px;
+	border-radius: 20px;
+}
+.raza:hover{
+	transform: scale(1.12);
+}
+a{
+    font-weight: bolder;
+    font-size: 20px;
+}
